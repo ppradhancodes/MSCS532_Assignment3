@@ -1,0 +1,68 @@
+Quicksort Analysis:
+
+Array size: 100
+  Random array:
+    Randomized Quicksort: 0.000073 seconds
+    Deterministic Quicksort: 0.000039 seconds
+  Sorted array:
+    Randomized Quicksort: 0.000057 seconds
+    Deterministic Quicksort: 0.000187 seconds
+  Reverse array:
+    Randomized Quicksort: 0.000059 seconds
+    Deterministic Quicksort: 0.000129 seconds
+  Repeated array:
+    Randomized Quicksort: 0.000022 seconds
+    Deterministic Quicksort: 0.000044 seconds
+
+Array size: 1000
+  Random array:
+    Randomized Quicksort: 0.000700 seconds
+    Deterministic Quicksort: 0.000611 seconds
+  Sorted array:
+    Randomized Quicksort: 0.000740 seconds
+    Deterministic Quicksort: 0.022075 seconds
+  Reverse array:
+    Randomized Quicksort: 0.000746 seconds
+    Deterministic Quicksort: 0.016872 seconds
+  Repeated array:
+    Randomized Quicksort: 0.000182 seconds
+    Deterministic Quicksort: 0.002571 seconds
+
+Array size: 10000
+  Random array:
+    Randomized Quicksort: 0.005460 seconds
+    Deterministic Quicksort: 0.010329 seconds
+  Sorted array:
+    Randomized Quicksort: 0.008247 seconds
+    Deterministic Quicksort: 2.513785 seconds
+  Reverse array:
+    Randomized Quicksort: 0.008922 seconds
+    Deterministic Quicksort: 1.725974 seconds
+  Repeated array:
+    Randomized Quicksort: 0.001496 seconds
+    Deterministic Quicksort: 0.242139 seconds
+
+Array size: 100000
+  Random array:
+    Randomized Quicksort: 0.054532 seconds
+    Deterministic Quicksort: 0.324583 seconds
+  Sorted array:
+    Randomized Quicksort: 0.099152 seconds
+    Deterministic Quicksort: 256.737555 seconds
+  Reverse array:
+    Randomized Quicksort: 0.104664 seconds
+    Deterministic Quicksort: 179.488897 seconds
+  Repeated array:
+    Randomized Quicksort: 0.012723 seconds
+    Deterministic Quicksort: 24.674883 seconds
+
+Hash Table Analysis:
+Insert 1000 items: 0.000791 seconds
+Search 1000 items: 0.000287 seconds
+Delete 1000 items: 0.000295 seconds
+
+Hash Table Example Usage:
+Name: Alice
+Age: 30
+City: New York
+Age after deletion: None
